@@ -35,13 +35,19 @@ body {
 
 /*-- Landing Page CSS--*/
 
-header {
-    background-image: url(img/background-home.png)!important;
-    background-position: center;
-    padding-top: 50%;
+.background-img {
+    min-height: 46rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    background: url(img/background-home.png);
+    background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .caption {
