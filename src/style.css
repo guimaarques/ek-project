@@ -1,0 +1,124 @@
+
+
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
+
+/*-- Navgation --*/
+.navbar {
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 1.2rem;
+    color:#CAC2FB;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#CAC2FB;
+}
+
+/*-- Landing Page CSS--*/
+
+header {
+    background-image: url(img/background-home.png)!important;
+    background-position: center;
+    padding-top: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top:40%;
+    z-index: 1;
+    color: white;
+}
+
+.caption h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    text-shadow: .1rem .1rem .5rem black;
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+}
+
+.btn-lg:hover {
+    background-color:#fff;
+}
+
+.row .img-thumbnail {
+    width:10px;
+}
+
+.margin-quem-somos {
+    padding-top: 3rem;
+}
+
+.margin-paragrafo{
+    padding-top: 3rem;
+}
+
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.depoimento {
+    padding-bottom: 3rem;
+}
+
+.card-posicao-img {
+    object-fit: cover;
+    object-position: 1 80%;
+    height: 300px;
+}
+
+.quem-somos-cores {
+    background-color: #000;
+}
+
+.lead {
+    color: white;
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
