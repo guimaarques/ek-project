@@ -36,7 +36,7 @@ body {
 /*-- Landing Page CSS--*/
 
 .background-img {
-    min-height: 46rem;
+    min-height: 48rem;
     position: relative;
     display: table;
     width: 100%;
@@ -110,6 +110,36 @@ body {
     color: white;
 }
 
+.background-quem-somos {
+    min-height: 4rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 15rem;
+    padding-bottom: 12rem;
+    background: #303B50;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background-quem-somos h3 {
+    color: white;
+}
+
+.quem-somos-title {
+    width: 100%;
+    position: absolute;
+    top:10%;
+    color: white;
+}
+
+
+.ideal {
+    color: #e9ecef;
+}
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
