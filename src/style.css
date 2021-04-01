@@ -31,6 +31,10 @@ body {
     color:#CAC2FB;
 }
 
+.navbar-dark .navbar-nav .aula-experimental:active {
+    color:#CAC2FB;
+}
+
 /*-- Landing Page CSS--*/
 
 .background-img {
@@ -130,6 +134,11 @@ body {
 
 .ideal {
     color: #e9ecef;
+}
+
+/*-----Modal-----*/
+.form-padding {
+    padding-top: 15px;
 }
 
 

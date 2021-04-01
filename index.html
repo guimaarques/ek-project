@@ -12,179 +12,228 @@
 
 <body data-spy="scroll" data-target="#navbarNavResponsive">
 
-  <!-- Start NavBar Section-->
+  <main>
+    <!-- Start NavBar Section-->
 
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#home">EK</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavResponsive"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavResponsive">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#depoimentos">Depoimentos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#quemSomos">Quem Somos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#aulaExperimental">Aula Experimental</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- End NavBar Section-->
-
-  <!-- Start Home Section -->
-
-  <header id="home" class="offset">
-
-    <div class="background-img">
-
-      <div class="caption text-center">
-        <h2>Bem-vindo à English Kingdom</h2>
-        <a class="btn btn-outline-light btn-lg" href="#aulaExperimental">Agende já sua Aula Experimental</a>
-      </div>
-    </div>
-
-  </header>
-
-  <!-- End Home Section -->
-
-  <!-- Start Depoimentos Section -->
-
-  <section id="depoimentos" class="offset">
-
-    <div class="jumbotron home">
-      <div class="narrow text-center">
-
-        <h3 class="heading depoimento">Depoimentos</h3>
-        <div class="heading-underline"></div>
-
-      </div>
-
-      <div class="container">
-        <div class="row justify-content-center">
-
-          <article class="card col-md-3 col-lg-4 col-12 p-0 m-3" style="max-width: 18rem;">
-            <img src="src/img/rafa-depoimento.jfif" class="card-img-top card-posicao-img" alt="Rafaela Marques">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                card's
-                content tests.</p>
-              <p class="card-text">By: Rafa Marques.</p>
-            </div>
-          </article>
-
-          <article class="card col-md-3 col-lg-4  col-12 p-0 m-3" style="max-width: 18rem;">
-            <img src="src/img/isa.jfif" class="card-img-top card-posicao-img" alt="Rafaela Marques">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                card's
-                content tests.</p>
-              <p class="card-text">By: Rafa Marques.</p>
-            </div>
-          </article>
-
-          <article class="card col-md-3 col-lg-4 col-12 p-0 m-3" style="max-width: 18rem;">
-            <img src="src/img/isa.jfif" class="card-img-top card-posicao-img" alt="Rafaela Marques">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                card's
-                content tests.</p>
-              <p class="card-text">By: Rafa Marques.</p>
-            </div>
-          </article>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">EK</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavResponsive"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavResponsive">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#depoimentos">Depoimentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quemSomos">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link aula-experimental" data-toggle="modal" data-target="#aulaExperimentalModal"
+                href="#aulaExperimentalModal">Aula Experimental</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </nav>
 
-  <!-- End Depoimentos Section -->
+    <!-- End NavBar Section-->
 
-  <!-- Start Quem Somos Section -->
-  <section id="quemSomos" class="offset">
+    <!-- Start Home Section -->
 
-    <div class="background-quem-somos">
+    <header id="home" class="offset">
 
-      <div class="container">
-        <div class="row text-center">
+      <div class="background-img">
 
-          <div class="col-md-4 col-12 col-lg-4">
-            <div class="ideal">
-              <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" fill="#e9ecef" class="bi bi-bell-fill" viewBox="0 0 16 20">
-                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
-              </svg>
-              <h4>Objetivo</h4>
-              <p>Um casal cuja vontade é democratizar o ensino de uma nova língua.</p>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-12 col-lg-4">
-            <div class="ideal">
-              <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" fill="#e9ecef" class="bi bi-book-fill" viewBox="0 0 16 20">
-                <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
-              </svg>
-              <h4>Ensino</h4>
-              <p>Personalizado e acessível.</p>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-12 col-lg-4">
-            <div class="ideal">
-              <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" fill="#e9ecef" class="bi bi-lightbulb-fill" viewBox="0 0 16 20">
-                <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5z"/>
-              </svg>
-              <h4>Liberdade</h4>
-              <p>Somos testemunhas de quantas portas uma segunda língua pode nos abrir.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-12 col-lg-4">
-            <div class="ideal">
-              <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" fill="#e9ecef" class="bi bi-arrow-up-right-square-fill" viewBox="0 0 16 20">
-                <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12zM5.904 10.803 10 6.707v2.768a.5.5 0 0 0 1 0V5.5a.5.5 0 0 0-.5-.5H6.525a.5.5 0 1 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 .707.707z"/>
-              </svg>
-              <h4>Sonhos</h4>
-              <p>Acreditamos que os sonhos não devem ficar no papel.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-12 col-lg-4">
-            <div class="ideal">
-              <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" fill="#e9ecef" class="bi bi-bar-chart-fill" viewBox="0 0 16 20">
-                <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2z"/>
-              </svg>
-              <h4>Impulsão</h4>
-              <p>Temos a convicção que podemos ajudá-lo a conquistar o objetivo de uma segunda língua.</p>
-            </div>
-          </div>
-
+        <div class="caption text-center">
+          <h2>Bem-vindo à English Kingdom</h2>
+          <a class="btn btn-outline-light btn-lg" data-toggle="modal" data-target="#aulaExperimentalModal"
+            href="#aulaExperimentalModal">Agende já sua Aula Experimental</a>
         </div>
       </div>
 
+    </header>
+
+    <!-- End Home Section -->
+
+    <!-- Start Depoimentos Section -->
+
+    <section id="depoimentos" class="offset">
+
+      <div class="jumbotron home">
+        <div class="narrow text-center">
+
+          <h3 class="heading depoimento">Depoimentos</h3>
+          <div class="heading-underline"></div>
+
+        </div>
+
+        <div class="container">
+          <div class="row justify-content-center">
+
+            <article class="card col-md-3 col-lg-4 col-12 p-0 m-3" style="max-width: 18rem;">
+              <img src="src/img/rafa-depoimento.jfif" class="card-img-top card-posicao-img" alt="Rafaela Marques">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content tests.</p>
+                <p class="card-text">By: Rafa Marques.</p>
+              </div>
+            </article>
+
+            <article class="card col-md-3 col-lg-4  col-12 p-0 m-3" style="max-width: 18rem;">
+              <img src="src/img/isa.jfif" class="card-img-top card-posicao-img" alt="Rafaela Marques">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content tests.</p>
+                <p class="card-text">By: Rafa Marques.</p>
+              </div>
+            </article>
+
+            <article class="card col-md-3 col-lg-4 col-12 p-0 m-3" style="max-width: 18rem;">
+              <img src="src/img/isa.jfif" class="card-img-top card-posicao-img" alt="Rafaela Marques">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content tests.</p>
+                <p class="card-text">By: Rafa Marques.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Depoimentos Section -->
+
+    <!-- Start Quem Somos Section -->
+    <section id="quemSomos" class="offset">
+
+      <div class="background-quem-somos">
+
+        <div class="container">
+          <div class="row text-center">
+
+            <div class="col-md-4 col-12 col-lg-4">
+              <div class="ideal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" fill="#e9ecef" class="bi bi-bell-fill"
+                  viewBox="0 0 16 20">
+                  <path
+                    d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
+                </svg>
+                <h4>Objetivo</h4>
+                <p>Democratizar o ensino de uma nova língua.</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-12 col-lg-4">
+              <div class="ideal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" fill="#e9ecef" class="bi bi-book-fill"
+                  viewBox="0 0 16 20">
+                  <path
+                    d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                </svg>
+                <h4>Ensino</h4>
+                <p>Personalizado e acessível.</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-12 col-lg-4">
+              <div class="ideal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" fill="#e9ecef"
+                  class="bi bi-lightbulb-fill" viewBox="0 0 16 20">
+                  <path
+                    d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5z" />
+                </svg>
+                <h4>Liberdade</h4>
+                <p>Somos testemunhas de quantas portas uma segunda língua pode nos abrir.</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-12 col-lg-4">
+              <div class="ideal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" fill="#e9ecef"
+                  class="bi bi-arrow-up-right-square-fill" viewBox="0 0 16 20">
+                  <path
+                    d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12zM5.904 10.803 10 6.707v2.768a.5.5 0 0 0 1 0V5.5a.5.5 0 0 0-.5-.5H6.525a.5.5 0 1 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 .707.707z" />
+                </svg>
+                <h4>Sonhos</h4>
+                <p>Acreditamos que os sonhos não devem ficar no papel.</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-12 col-lg-4">
+              <div class="ideal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="150" height="100" fill="#e9ecef"
+                  class="bi bi-bar-chart-fill" viewBox="0 0 16 20">
+                  <path
+                    d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2z" />
+                </svg>
+                <h4>Impulsão</h4>
+                <p>Temos a convicção que podemos ajudá-lo a conquistar o objetivo de uma segunda língua.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal fade" id="aulaExperimentalModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Nós entramos em contato com você! :)</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+            <div class="row form-padding">
+              <div class="col">
+                <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="WhatsApp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your number with anyone else.</small>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
+      </div>
     </div>
-  </section>
+  </div>
 
 
   <!-- End Quem Somos Section -->
 
-  <!-- Start Aula Experimental Section -->
-
-  <section id="aulaExperimental" class="offset">
-
-
-  </section>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
-<!-- End Aula Experimental Section -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+  <!-- End Aula Experimental Section -->
 </body>
 
 </html>
