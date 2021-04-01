@@ -1,5 +1,3 @@
-
-
 body {
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
@@ -37,7 +35,8 @@ body {
 
 .background-img {
     min-height: 725px;
-    padding-top: 15rem;
+    height: 100%;
+    padding-top: 40%;
     padding-bottom: 15rem;
     background-image: url(img/background-home.png);
     background-position: center center center;
