@@ -10,9 +10,10 @@
   <link rel="stylesheet" href="src/style.css">
 </head>
 
-<body data-spy="scroll" data-target="#navbarNavResponsive">
+<body data-spy="scroll" data-target="#navbarNavResponsive" data-aos-duration="800" data-aos-delay="0">
 
   <main>
+
     <!-- Start NavBar Section-->
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
@@ -28,10 +29,13 @@
               <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#quemSomos">Quem Somos</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#depoimentos">Depoimentos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#quemSomos">Quem Somos</a>
+              <a class="nav-link" href="#portfolio">Ensino</a>
             </li>
             <li class="nav-item">
               <a class="nav-link aula-experimental" data-toggle="modal" data-target="#aulaExperimentalModal"
@@ -60,57 +64,6 @@
     </header>
 
     <!-- End Home Section -->
-
-    <!-- Start Depoimentos Section -->
-
-    <section id="depoimentos" class="offset">
-
-      <div class="jumbotron home">
-        <div class="narrow text-center">
-
-          <h3 class="heading depoimento">Depoimentos</h3>
-          <div class="heading-underline"></div>
-
-        </div>
-
-        <div class="container">
-          <div class="row justify-content-center">
-
-            <article class="card col-md-3 col-lg-4 col-12 p-0 m-3" style="max-width: 18rem;">
-              <img src="src/img/rafa-depoimento.jfif" class="card-img-top card-posicao-img" alt="Rafaela Marques">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content tests.</p>
-                <p class="card-text">By: Rafa Marques.</p>
-              </div>
-            </article>
-
-            <article class="card col-md-3 col-lg-4  col-12 p-0 m-3" style="max-width: 18rem;">
-              <img src="src/img/isa.jfif" class="card-img-top card-posicao-img" alt="Rafaela Marques">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content tests.</p>
-                <p class="card-text">By: Rafa Marques.</p>
-              </div>
-            </article>
-
-            <article class="card col-md-3 col-lg-4 col-12 p-0 m-3" style="max-width: 18rem;">
-              <img src="src/img/isa.jfif" class="card-img-top card-posicao-img" alt="Rafaela Marques">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content tests.</p>
-                <p class="card-text">By: Rafa Marques.</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- End Depoimentos Section -->
 
     <!-- Start Quem Somos Section -->
     <section id="quemSomos" class="offset">
@@ -185,6 +138,123 @@
 
       </div>
     </section>
+    <!-- End Quem Somos Section -->
+
+    <!-- Start Depoimentos Section -->
+
+    <section id="depoimentos" class="offset">
+
+      <div class="jumbotron">
+        <div class="narrow text-center">
+
+          <h3 class="heading depoimento-title">Depoimentos</h3>
+          <div class="heading-underline"></div>
+
+        </div>
+
+        <div class="container aos-init aos-animate" data-aos="fade-up">
+          <div class="row justify-content-center">
+
+            <article class="card col-md-3 col-lg-4 col-12 p-0 m-3" style="max-width: 18rem;">
+              <img src="src/img/rafa-depoimento.jfif" class="card-img-top card-posicao-img" alt="Rafaela Marques">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content tests.</p>
+                <p class="card-text">By: Rafa Marques.</p>
+              </div>
+            </article>
+
+            <article class="card col-md-3 col-lg-4  col-12 p-0 m-3" style="max-width: 18rem;">
+              <img src="src/img/isa.jfif" class="card-img-top card-posicao-img" alt="Rafaela Marques">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content tests.</p>
+                <p class="card-text">By: Rafa Marques.</p>
+              </div>
+            </article>
+
+            <article class="card col-md-3 col-lg-4 col-12 p-0 m-3" style="max-width: 18rem;">
+              <img src="src/img/isa.jfif" class="card-img-top card-posicao-img" alt="Rafaela Marques">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content tests.</p>
+                <p class="card-text">By: Rafa Marques.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Depoimentos Section -->
+
+    <!-- Start Portfolio-->
+    <section id="portfolio">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" >
+              <img class="img-fluid" src="src/img/portfolio/thumbnails/1.jpg" alt="" />
+              <div class="portfolio-box-caption">
+                <div class="project-category text-white-50">Individual</div>
+                <div class="project-name">Ensino individualizado</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box">
+              <img class="img-fluid" src="src/img/portfolio/thumbnails/2.jpg" alt="" />
+              <div class="portfolio-box-caption">
+                <div class="project-category text-white-50">Virtual</div>
+                <div class="project-name">Ensino 100% virtual.</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box">
+              <img class="img-fluid" src="src/img/portfolio/thumbnails/3.jpg" alt="" />
+              <div class="portfolio-box-caption">
+                <div class="project-category text-white-50">Consultoria</div>
+                <div class="project-name">Professores disponíveis para consultoria.</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box">
+              <img class="img-fluid" src="src/img/portfolio/thumbnails/4.jpg" alt="" />
+              <div class="portfolio-box-caption">
+                <div class="project-category text-white-50">Category</div>
+                <div class="project-name">Project Name</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box">
+              <img class="img-fluid" src="src/img/portfolio/thumbnails/5.jpg" alt="" />
+              <div class="portfolio-box-caption">
+                <div class="project-category text-white-50">Category</div>
+                <div class="project-name">Project Name</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box">
+              <img class="img-fluid" src="src/img/portfolio/thumbnails/6.jpg"  />
+              <div class="portfolio-box-caption p-3">
+                <div class="project-category text-white-50">Category</div>
+                <div class="project-name">Project Name</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Portfolio-->
+
+
   </main>
 
   <!-- Modal -->
@@ -193,12 +263,12 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Nós entramos em contato com você! :)</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Nós entramos em contato com você! &#128516;</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
+        <div class="modal-body m-5">
           <form>
             <div class="row">
               <div class="col">
@@ -226,9 +296,10 @@
             </div>
             <div class="row form-padding">
               <div class="col-12">
-                <label for="exampleFormControlFile1">Como considera seu inglês?</label>
                 <select class="form-control">
+                  <option>Como considera seu inglês?</option>
                   <option>Não sei classificar</option>
+                  <option>Iniciante</option>
                   <option>Básico</option>
                   <option>Intermediário</option>
                   <option>Avançado</option>
@@ -237,13 +308,13 @@
             </div>
           </form>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <div class="modal-footer justify-content-center button-send">
           <button type="button" class="btn btn-primary">Enviar</button>
         </div>
       </div>
     </div>
   </div>
+  <!-- End Modal -->
 
 
   <!-- End Quem Somos Section -->
