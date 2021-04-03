@@ -145,7 +145,7 @@
       <div class="container-fluid p-0">
         <div class="row no-gutters">
           <div class="col-lg-4 col-sm-6">
-            <a class="ensino-box" >
+            <a class="ensino-box">
               <img class="img-fluid" src="src/img/portfolio/thumbnails/1.jpg" alt="" />
               <div class="ensino-box-caption">
                 <div class="project-category text-white-50">Individual</div>
@@ -191,7 +191,7 @@
           </div>
           <div class="col-lg-4 col-sm-6">
             <a class="ensino-box">
-              <img class="img-fluid" src="src/img/portfolio/thumbnails/6.jpg"  />
+              <img class="img-fluid" src="src/img/portfolio/thumbnails/6.jpg" />
               <div class="ensino-box-caption p-3">
                 <div class="project-category text-white-50">Category</div>
                 <div class="project-name">Project Name</div>
@@ -269,26 +269,26 @@
           </button>
         </div>
         <div class="modal-body">
-          <form>
+          <form id="aula-experimental-form">
             <div class="row form-padding">
               <div class="col">
-                <input type="text" class="form-control" placeholder="Nome*">
+                <input type="text" class="form-control" name="name" placeholder="Nome*">
               </div>
               <div class="col">
-                <input type="text" class="form-control" placeholder="Sobrenome*">
+                <input type="text" class="form-control" name="last-name" placeholder="Sobrenome*">
               </div>
             </div>
             <div class="row form-padding">
               <div class="col">
-                <input type="text" class="form-control" placeholder="Data de Nascimento*">
+                <input type="text" class="form-control"  name="birthday" placeholder="Data de Nascimento*">
               </div>
               <div class="col">
-                <input type="text" class="form-control" placeholder="WhatsApp*">
+                <input type="text" class="form-control" name="whatsApp" placeholder="WhatsApp*">
               </div>
             </div>
             <div class="row form-padding">
               <div class="col">
-                <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp"
+                <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp"
                   placeholder="E-mail*">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                   else.</small>
@@ -296,7 +296,7 @@
             </div>
             <div class="row form-padding">
               <div class="col-12">
-                <select class="form-control">
+                <select class="form-control" name="level">
                   <option disabled selected>Como considera seu inglês?*</option>
                   <option>Não sei classificar</option>
                   <option>Iniciante</option>
@@ -309,7 +309,7 @@
           </form>
         </div>
         <div class="modal-footer justify-content-center button-send">
-          <button type="button" class="btn btn-primary">Enviar</button>
+          <button type="button" class="btn btn-primary" disabled>Enviar</button>
         </div>
       </div>
     </div>
@@ -321,7 +321,7 @@
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
-  <!-- End Aula Experimental Section -->
+  <script src="js/forms.js"></script>
 </body>
 
 </html>
