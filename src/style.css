@@ -187,6 +187,10 @@ body {
     opacity: 1;
   }
 
+  .val-error {
+      color:red;
+  }
+
 
 /*============ BOOTSTRAP BREAK POINTS:
 

@@ -272,31 +272,37 @@
           <form id="aula-experimental-form">
             <div class="row form-padding">
               <div class="col">
-                <input type="text" class="form-control" name="name" placeholder="Nome*">
+                <input type="text" class="form-control" name="name" placeholder="Nome*" required>
+                <small id="name-error" class="val-error"></small>
               </div>
               <div class="col">
-                <input type="text" class="form-control" name="last-name" placeholder="Sobrenome*">
+                <input type="text" class="form-control" name="lastName" placeholder="Sobrenome*" required>
+                <small id="lastName-error" class="val-error"></small>
               </div>
             </div>
             <div class="row form-padding">
               <div class="col">
-                <input type="text" class="form-control"  name="birthday" placeholder="Data de Nascimento*">
+                <input type="text" class="form-control"  name="birthday" placeholder="Data de Nascimento*" required>
+                <small id="birthday-error" class="val-error"></small>
               </div>
               <div class="col">
-                <input type="text" class="form-control" name="whatsApp" placeholder="WhatsApp*">
+                <input type="text" class="form-control" name="whatsApp" placeholder="WhatsApp*" required>
+                <small id="whatsApp-error" class="val-error"></small>
               </div>
             </div>
             <div class="row form-padding">
               <div class="col">
                 <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp"
-                  placeholder="E-mail*">
+                  placeholder="E-mail*" required>
+                  <small id="email-error" class="val-error"></small>
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                   else.</small>
               </div>
             </div>
             <div class="row form-padding">
               <div class="col-12">
-                <select class="form-control" name="level">
+                <select class="form-control" name="level" required>
+                  <div id="level-error" class="val-error"></div>
                   <option disabled selected>Como considera seu inglês?*</option>
                   <option>Não sei classificar</option>
                   <option>Iniciante</option>
@@ -309,7 +315,7 @@
           </form>
         </div>
         <div class="modal-footer justify-content-center button-send">
-          <button type="button" class="btn btn-primary" disabled>Enviar</button>
+          <button type="submit" id="btnSend" class="btn btn-primary" disabled>Enviar</button>
         </div>
       </div>
     </div>
