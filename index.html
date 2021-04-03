@@ -269,7 +269,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <form id="aula-experimental-form">
+          <form id="aula-experimental-form" method="POST" onsubmit="return enableSendButton(map)">
             <div class="row form-padding">
               <div class="col">
                 <input type="text" class="form-control" name="name" placeholder="Nome*" required>
