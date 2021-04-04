@@ -146,6 +146,11 @@ body {
     color: #e9ecef;
 }
 
+.footer-color {
+    background: #303B50;
+    padding-bottom: 1px;
+}
+
 /*-----Modal-----*/
 .form-padding {
     padding-top: 15px;

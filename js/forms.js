@@ -138,9 +138,9 @@ function verifyWhatsAppContent(whatsApp, errorId) {
 
 function verifyEmailContent(email, errorId) {
 
-    var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    var regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-    if (!re.test(String(email.value).toLowerCase())) {
+    if (!regex.test(String(email.value).toLowerCase())) {
         map.set("email", false);
         errorId.textContent = "E-mail inválido";
         email.style.border = "1px solid red";
