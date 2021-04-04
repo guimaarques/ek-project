@@ -146,3 +146,8 @@ function verifyEmailContent(email, errorId) {
         email.style.border = "1px solid red";
     }
 }
+
+/**send */
+sendButton.addEventListener("click", function () {
+    document.location.reload(true);
+});
