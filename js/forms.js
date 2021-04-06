@@ -147,7 +147,7 @@ function verifyEmailContent(email, errorId) {
     }
 }
 
-/**send */
+/**missing send method */
 sendButton.addEventListener("click", function () {
     document.location.reload(true);
 });
