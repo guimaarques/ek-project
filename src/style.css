@@ -9,10 +9,6 @@ body {
     color: #505962;
 }
 
-.container {
-    max-width: 1140px;
-}
-
 /*-- Navgation --*/
 .navbar {
     font-weight: 700;
@@ -166,12 +162,9 @@ body {
 .form-padding {
     padding-top: 15px;
 }
-.container-fluid {
-    max-width: 1140px;
-}
 
 #ensino .container-fluid, #ensino .container-sm, #ensino .container-md, #ensino .container-lg, #ensino .container-xl {
-    max-width: 1140px;
+    max-width: 1920px;
   }
   #ensino .container-fluid .ensino-box, #ensino .container-sm .ensino-box, #ensino .container-md .ensino-box, #ensino .container-lg .ensino-box, #ensino .container-xl .ensino-box {
     position: relative;
