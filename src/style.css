@@ -20,7 +20,7 @@ body {
     font-weight: 700;
     font-size: .9rem;
     letter-spacing: .1rem;
-    background: rgba(0, 0, 0, 0.6)!important;
+    background: #5A1F8D!important;
     transition: top 0.3s;
     position: fixed;
 }
@@ -30,9 +30,7 @@ body {
     color:#CAC2FB;
 }
 
-.navbar-nav li {
-    padding-right: .7rem;
-}
+
 
 .navbar-dark .navbar-nav .nav-link {
     color: white;
@@ -50,37 +48,50 @@ body {
 
 /*-- Landing Page CSS--*/
 
-.background-img {
-    min-height: 725px;
-    height: 100%;
-    padding-top: 40%;
-    padding-bottom: 15rem;
-    background: url(img/background-home.png);
-    background-position: center center center;
+  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+  @media screen and (min-width: 601px) {
+    .home-text {
+        font-size: 5rem;
+        font-family: 'Open Sans', sans-serif!important;
+    }
+    .caption {
+        padding-top: 15%;
+        color: white;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .home-text {
+        font-size: 2.0rem;
+    }
+    .caption {
+        padding-top: 50%;
+        color: white;
+    }
+
+  }
+
+.home-school-name {
+    color: #FFD001;
+    font-size: 4rem;
+}
+
+.background-home {
+    max-height: 500px;
+    min-height: 800px;
+    padding-top:10%;
+    padding-bottom: 45%;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    background: #5A1F8D;
 }
 
 .button-send {
     margin-bottom: 30px;;
 }
 
-.caption {
-    width: 100%;
-    max-width: 100%;
-    position: absolute;
-    top:40%;
-    z-index: 1;
-    color: white;
-}
-
-.caption h1 {
-    font-size: 2.8rem;
-    font-weight: 700;
-    letter-spacing: .1rem;
-    text-shadow: .1rem .1rem .5rem black;
-}
 
 .btn-lg {
     border-width: medium;
@@ -116,44 +127,22 @@ body {
     object-fit: cover;
     object-position: 1 80%;
     height: 300px;
-    
 }
 
-.card:hover img{
-    scale: (1.1);
-    transform: scale(1);
-}
-
-.quem-somos-cores {
-    background-color: #000;
-}
-
-.lead {
-    color: white;
-}
 
 .background-quem-somos {
     min-height: 200px;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background-image: url(img/background-home.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background: #303B50;
+    background: #FFD001;
 }
 
 .background-quem-somos h3 {
     color: white;
 }
-
-.quem-somos-title {
-    width: 100%;
-    position: absolute;
-    top:10%;
-    color: white;
-}
-
 
 .ideal {
     color: #e9ecef;
@@ -208,6 +197,9 @@ body {
   .val-error {
       color:red;
   }
+
+
+
 
 
 /*============ BOOTSTRAP BREAK POINTS:
