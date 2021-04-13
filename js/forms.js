@@ -93,10 +93,10 @@ forms.level.addEventListener("blur", function () {
 function validation(received) {
     var receivedValue = received.value;
     if (receivedValue.length == 0 || receivedValue == "Como considera seu inglês?*") {
-        received.style.border = "1px solid red";
+        received.style.borderBottom = "2px solid red";
         return false;
     } else {
-        received.style.border = "1px solid grey";
+        received.style.borderBottom = "2px solid #fff";
         return true;
     }
 }
