@@ -54,11 +54,11 @@ body {
         font-size: 5rem;
     }
     .home-text-caption {
-        padding-top: 15%;
+        padding-top: 12%;
         color: white;
     }
     .home-card-caption {
-        color: white;
+        color: black;
         padding-top: 5%;
     }
   }
@@ -69,13 +69,15 @@ body {
         font-size: 2.0rem;
     }
     .home-text-caption {
-        padding-top: 15%;
+        padding-top: 10%;
+        padding-right: 20%;
         padding-left: 20%;
-        color: white;
+        color: black;
     }
     .home-card-caption {
-        color: white;
+        color: black;
         padding-left: 20%;
+        padding-right: 20%;
         padding-top: 5%;
     }
   }
@@ -89,7 +91,7 @@ body {
 .forms-home  {
     border: none;
     border-bottom: 2px solid #fff;
-    background-color: #FFD001;
+    background-color: #fff;
   }
 
 .background-home {
